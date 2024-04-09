@@ -17,7 +17,7 @@ def wavelet_transform(image_path, wavelet='haar', level=1):
     fig, axs = plt.subplots(1, level+2, figsize=(12, 6))
 
     # Wyświetlenie oryginalnego obrazu
-    axs[0].imshow(img, cmap='viridis')
+    axs[0].imshow(img, cmap='gray')
     axs[0].set_title('Original Image')
     axs[0].axis('off')
 
